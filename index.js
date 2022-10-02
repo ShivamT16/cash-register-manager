@@ -37,4 +37,4 @@ function calculateChange(amountToBeReturned) {
     }
 }
 
-checkButton.('click', validateBillAndCashAmount);
+checkButton.addEventListener('click', validateBillAndCashAmount);
